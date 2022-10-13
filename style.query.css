@@ -38,6 +38,9 @@
         font-size: 18px;
         margin: 10px;
     }
+    main {
+        flex-direction: column;
+    }
 
     .text-br, .img-bx {
         width: 100%;
@@ -49,6 +52,11 @@
     }
 
     .text-bx .input-bx {
+        justify-content: center;
+    }
+
+    .medias-sociais {
+        display: flex;
         justify-content: center;
     }
 }
